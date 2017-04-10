@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=Triangle Problem</td>
+	<td>link=Triangle Problem with Errors</td>
 	<td></td>
 </tr>
 <tr>
@@ -42,11 +42,10 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertText</td>
-	<td>css=h1.text-center</td>
-	<td>Input is not as specified</td>
+	<td>assertAttribute</td>
+	<td>id=imageResult@src</td>
+	<td>./assets/skull.jpg</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
